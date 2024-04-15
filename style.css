@@ -319,6 +319,10 @@ section.double .supdown .bottom {
     padding-bottom: 40px;
 }
 
+.middlecol .svgoverflow {
+    overflow: hidden;
+}
+
 .middlecol .pjtsec .projet {
     width: 100%;
     height: 23%;
@@ -380,6 +384,57 @@ footer .tmcol.tmRight {
 .trColor:hover {
     color: var(--d-primary);
 }
+
+
+
+
+
+@media screen and (min-width: 768px) and  (max-width: 1200px) {
+    h2 {
+        font-size: 96px;
+    }  
+
+    .leftcol, .rightcol {
+        width: 0;
+    }
+
+    .col:nth-child(2) {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+    h2 {
+        font-size: 96px;
+    }    
+
+    .leftcol, .rightcol {
+        width: 10%;
+    }
+
+    .col:nth-child(2) {
+        width: 80%;
+    }
+}
+
+
+@media screen and (min-width: 1500px) and (max-width: 1650px) {
+    .leftcol, .rightcol {
+        width: 15%;
+    }
+
+    .col:nth-child(2) {
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
